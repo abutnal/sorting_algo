@@ -1,8 +1,9 @@
 function quick_Sort(origArray) {
 	if (origArray.length <= 1) { 
 		return origArray;
-		
-	} else {
+	} 
+	else 
+	{
         var left = [];
 		var right = [];
 		var newArray = [];
